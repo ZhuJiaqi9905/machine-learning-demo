@@ -29,3 +29,11 @@ plt.ylabel("p(x)", fontsize=10)
 #设置刻度标记的大小
 plt.tick_params(axis='both', labelsize=10) 
 plt.show()
+
+#画出数据对应的频率直方图
+plt.hist(data, bins=500, facecolor="blue")
+plt.xlabel("x", fontsize=10)
+plt.ylabel("frequency", fontsize=10)
+#设置刻度标记的大小
+plt.tick_params(axis='both', labelsize=10) 
+plt.show()
